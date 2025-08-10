@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #dceeff;
+}
+
+.result-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.result-container h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #003366;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+thead {
+  background-color: #f2a900;
+  color: white;
+}
+
+thead th {
+  padding: 12px 10px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ccc;
+}
+
+tbody td {
+  padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.gpa-table {
+  margin-top: 40px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gpa-table h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.gpa-table table {
+  width: 50%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+.gpa-table th,
+.gpa-table td {
+  padding: 12px 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.gpa-table thead {
+  background-color: #a6ff00;
+  color: white;
+}
+.roll-form {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 30px auto;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.roll-form label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #003366;
+}
+
+.roll-form input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ff00aa;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+  background-color: #4700cc;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    background-color: #e6f0fa; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+    background: #ffffff;
+    padding: 60px 80px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+
+h1 {
+    font-size: 30px;
+    color: #0a3d62;
+    margin-bottom: 30px;
+    white-space: nowrap;
+    text-shadow: 1px 1px 2px rgba(10, 61, 98, 0.1);
+}
+
+
+.menu {
+    background-color: #e3f3fd;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+
+.menu a {
+    display: block;
+    font-size: 20px;
+    margin: 15px 0;
+    background: linear-gradient(to right, #74ffc5, #4a09e3);
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(9, 132, 227, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s, color 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.menu a:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(180, 227, 9, 0.4);
+    color: #f1f2f6;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
